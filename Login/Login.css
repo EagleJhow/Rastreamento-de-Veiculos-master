@@ -1,0 +1,229 @@
+body{
+    background-color: #1B1F27;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.area-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+    border-radius: 10px;
+    width: 385px;
+    height: 385px;
+    padding: 35px;
+}
+
+.login form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.login input{
+    margin-top: 10px;
+    background: #252A34;
+    padding-left: 10px;
+    color: #CBD0F7;
+    border: none;
+    height: 45px;
+    outline: none;
+    border-radius: 8px;
+}
+
+.login img{
+    width: 105px;
+    height: auto;
+}
+
+input::placeholder{
+    color: #CBD0F7;
+    font-size: 14px;
+}
+
+form [type="submit"] {
+    display: block;
+    background-color: #5568FE;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+p{
+    color: #CBD0F7;
+	margin-top: 10px;
+}
+
+a{
+    color: #5568FE;
+}
+
+.recuperacao{
+	justify-content: center;
+	display: flex;
+	margin-top: 10px;
+}
+
+.continue-button button {
+    width: 100%;
+    margin-top: 10px;
+    border: none;
+    background-color: #6c63ff;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.continue-button button:hover {
+    background-color: #6b63fff1;
+}
+
+.continue-button button a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+.mostrar {
+    margin-top: 10px;
+    border: none;
+    background-color: #6c63ff;
+    padding: 0.62rem;
+    border-radius: 10px;
+    cursor: pointer;
+	height: 45px;
+}
+
+.senha{
+	width: 100%;
+}
+
+.divLinha{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tooltip {
+    font-size: 26px;
+    display: inline-block;
+    align-items: center;
+    margin-left: 5px;
+    background-color: #5568FE;
+    border-radius: 10px;
+	margin-top: 10px;
+    border: none;
+    background-color: #6c63ff;
+    padding: 0.62rem;
+    border-radius: 10px;
+	height: 45px;
+}
+
+.input{
+    border: solid 1px white;
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+    width: 100%;
+    padding: 1em;
+    background-color: red;
+    border-radius: 25px;
+    font-size: 16px;
+    color: white;
+    outline: none;
+}
+
+
+
+.tooltip .tooltiptext {
+    font-size: 14px;
+    visibility: hidden;
+    width: 200px;
+    background-color: black;
+    color: #CBD0F7;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+/* Parte do Menu */
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: 'Montserrat Alternates', sans-serif;
+	}
+	.capa{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background: rgba(0,0,0,0.6);
+		z-index: -1;
+		top: 0;left: 0;
+	}
+
+	.header{
+		width: 100%;
+		height: 100px;
+		position: fixed;
+		top: 0;left: 0;
+	}
+	.container{
+		width: 90%;
+		max-width: 1200px;
+		margin: auto;
+	}
+	.container .btn-menu, .logo{
+		float: left;
+		line-height:100px;
+	}
+	.container .btn-menu label{
+		color: #CBD0F7;
+		font-size: 25px;
+		cursor: pointer;
+	}
+	.logo h1{
+		color: #CBD0F7;
+		font-weight: 400;
+		font-size: 22px;
+		margin-left: 10px;
+	}
+	.container .menu{
+		float: right;
+		line-height: 100px;
+	}
+	.container .menu a{
+		display: inline-block;
+		padding: 15px;
+		line-height: normal;
+		text-decoration: none;
+		color: #CBD0F7;
+		transition: all 0.3s ease;
+		border-bottom: 2px solid transparent;
+		font-size: 15px;
+		margin-right: 5px;
+	}
+	.container .menu a:hover{
+		border-bottom: 2px solid #CBD0F7;
+		padding-bottom: 5px;
+	}
